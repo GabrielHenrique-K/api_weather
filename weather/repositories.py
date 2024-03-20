@@ -21,7 +21,7 @@ class WeatherRepository:
         return collection
     
     def getAll(self):
-        object = self.getColletion().find({})
+        document = self.getColletion().find({})
         return document
     
     def insert(self, document):
